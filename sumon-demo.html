@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>MY CURRENCY CONVERTER</title>
+
+        <link rel="stylesheet" type="text/css" href="sumon.css">
+        <script type="text/javascript" src="sumon1.js"></script>
+        
+                
+    </head>
+    <body>
+
+            <div>
+    <h4>Currency calculator</h4>
+</div>
+
+<div class="sumon"> 
+
+        <table >
+
+
+           
+        <tr>
+            <td> I HAVE :</td>
+            
+            <td>
+                <select id="from" onchange="convert('C')">
+                    <option value="EUR" >EURO €</option>
+                    <option value="USD">US DOLLER $</option>
+                    <option value="BDT">TAKA ৳</option>
+                    <option value="RUPI">RUPI ₹</option>
+                    
+                </select>
+            </td>
+            <td> <input id="firstinput" placeholder=" INPUT YOUR VALUE" onkeyup="convert('C');"></td>
+
+        </tr>
+        <tr>
+            <td>I WANT:</td>
+
+ 
+            <td>
+           
+                <select id="to" onchange="convert('F')"  >
+                    <option value="EUR">EURO €</option>
+                    <option value="USD" >US DOLLER $</option>
+                    <option value="BDT">TAKA ৳</option>
+                    <option value="RUPI">RUPI ₹</option>
+                    
+
+                </select>
+            </td>
+            <td> <input id="secondinput" placeholder=" SHOW RESULT " onkeyup="convert('F')"></td>
+        </tr>
+
+
+
+        </table>
+
+
+
+    </body>
+</html>

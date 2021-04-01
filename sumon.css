@@ -1,0 +1,65 @@
+
+
+input,select{
+
+	padding: 12px;
+	border-radius: 10px;
+
+	font-family:  sans-serif ;
+	border-color: green;
+	
+	text-align: center;
+}
+
+table{
+
+   background: #33e857;
+	font-size: 20px;
+	padding: 50px;
+	margin: 0 auto;
+	height: 50%;
+
+   text-align: center;
+  border: 7px solid  #581845;
+  border-radius: 10px;
+
+
+
+}
+
+
+.sumon{
+
+
+ 
+	background: #739CB1;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px;
+    border: 10px solid #531B70;
+     height: 90%;
+     border-radius: 10px;
+
+
+}
+
+
+h4{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	background: green;
+	padding: 25px;
+
+}
+
+
+
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+
